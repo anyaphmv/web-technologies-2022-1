@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 40px 0 0;
+}
+.allimg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.oneImg {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.oneImg  a {
+    width: 300px;
+}
+.img {
+    width: inherit;
+    height: 100%;
+}
+.img-msg {
+    position: relative;
+}
+.img-msg > img {
+    max-height: 600px;
+}
+.img-block {
+    background-color: rgba(0,0,0, .8);
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.close-btn {
+    font-size: 1.5em;
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+fieldset {
+    max-width: 300px;
+    margin: 25px auto;
+    padding: 0 25px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    font-family: Arial, serif;
+}
